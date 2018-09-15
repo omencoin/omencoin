@@ -1,5 +1,3 @@
 # omencoin
 
-POW / POS cryptocurrency
-
-release 15th september 2018
+Omencoin is a POW / POS Cryptocurrency
