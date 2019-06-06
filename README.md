@@ -46,10 +46,6 @@ https://omen-explorer.xyz/
 
 https://graviex.net/markets/omenbtc
 
-https://app.stex.com/en/trade/pair/BTC/OMEN/
-
-https://wadax.io/trade/SAFEBTC
-
 https://bitsahani.com/exchange/OMEN-BTC
 
 https://vaultmex.com/trade/OMEN/BTC
