@@ -114,6 +114,7 @@ class TestWritableFile : public WritableFile {
   virtual Status Close();
   virtual Status Flush();
   virtual Status Sync();
+  std::string GetName() const { return ""; };
 
  private:
   FileState state_;

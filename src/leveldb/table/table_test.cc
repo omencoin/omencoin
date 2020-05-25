@@ -102,6 +102,7 @@ class StringSink: public WritableFile {
     return Status::OK();
   }
 
+  std::string GetName() const { return ""; };
  private:
   std::string contents_;
 };
@@ -129,6 +130,8 @@ class StringSource: public RandomAccessFile {
     *result = Slice(scratch, n);
     return Status::OK();
   }
+
+  std::string GetName() const { return ""; };
 
  private:
   std::string contents_;

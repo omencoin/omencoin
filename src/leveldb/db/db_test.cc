@@ -119,6 +119,9 @@ class SpecialEnv : public EnvWrapper {
         }
         return base_->Sync();
       }
+      std::string GetName() const {
+        return "";
+      }
     };
     class ManifestFile : public WritableFile {
      private:
@@ -142,6 +145,10 @@ class SpecialEnv : public EnvWrapper {
         } else {
           return base_->Sync();
         }
+      }
+
+      std::string GetName() const {
+        return "";
       }
     };
 
@@ -175,6 +182,10 @@ class SpecialEnv : public EnvWrapper {
                           char* scratch) const {
         counter_->Increment();
         return target_->Read(offset, n, result, scratch);
+      }
+
+      std::string GetName() const {
+        return "";
       }
     };
 

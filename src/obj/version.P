@@ -1,4 +1,4 @@
 obj/version.o: version.cpp version.h clientversion.h \
- /root/omencoin/src/obj/build.h
+ /home/emrahm/wallet/omencoin-openssl/omencoin/src/obj/build.h
 version.cpp version.h clientversion.h :
- /root/omencoin/src/obj/build.h :
+ /home/emrahm/wallet/omencoin-openssl/omencoin/src/obj/build.h :
