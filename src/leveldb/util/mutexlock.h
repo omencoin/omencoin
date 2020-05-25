@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file. See the AUTHORS file for names of contributors.
 
-#ifndef STORAGE_LEVELDB_UTIL_OMENEXLOCK_H_
-#define STORAGE_LEVELDB_UTIL_OMENEXLOCK_H_
+#ifndef STORAGE_LEVELDB_UTIL_MUTEXLOCK_H_
+#define STORAGE_LEVELDB_UTIL_MUTEXLOCK_H_
 
 #include "port/port.h"
 #include "port/thread_annotations.h"
@@ -38,4 +38,4 @@ class SCOPED_LOCKABLE MutexLock {
 }  // namespace leveldb
 
 
-#endif  // STORAGE_LEVELDB_UTIL_OMENEXLOCK_H_
+#endif  // STORAGE_LEVELDB_UTIL_MUTEXLOCK_H_
